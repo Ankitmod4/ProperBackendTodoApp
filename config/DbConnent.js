@@ -1,7 +1,7 @@
 let mongoose = require('mongoose');
 require('dotenv').config(); 
 let DbConnect=() => {
-    mongoose.connect("mongodb://localhost:27017/AnkitCoder", {
+    mongoose.connect("mongodb+srv://AnkitMod:ec9ObUNKLHVqgWge@ankitcluster.e47tu6x.mongodb.net/Todo", {
         useNewUrlParser: true, 
         useUnifiedTopology: true
     }).then(() => {
